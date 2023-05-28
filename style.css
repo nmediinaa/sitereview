@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500;800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Nunito';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container_main_item a{
+    font-weight: 800;
+}
+a:hover{
+    color: grey;
+}
+header{
+    top:0;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+    display: flex;
+    background-color: yellow;
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main__index{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 8vh;
+    color: black;
+    width: auto;
+}
+.main__titulo{
+    background-color: yellow;
+    color: black;
+    border-radius: 6px;
+    padding: 0.3em;
+}
+
+.img__main{
+    border: 10px inset black ;
+    margin: 2em 0;
+}
+
+.div__noticias{
+    margin: 2em 0;
+    background-color: yellow;
+}
+
+.noticia__titulo{
+    margin: 1em 0;
+}
+
+.noticias__texto{
+    margin: 0 2em;
+}
+
+.texto__button{
+    color: white;
+    padding: 1em;
+    border-radius: 4px;
+    margin: 2em 40em;
+    background-color: black;
+}
+
+
+main{
+    background-color: black;
+    color: white;
+}
+footer{
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    background-color: yellow;
+    justify-content: space-around; 
+    padding: 1em;  
+}
+.footer_lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.div_cabecalho{
+    display: flex;
+    gap: 2em;
+}
+.titulo{
+    font-weight: 800;
+}
+.container_main{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 8vh;
+}
+.container_main_conteudo{
+    padding:50px;
+    text-align: center;
+    margin-top: 8vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.container_main_conteudo p{
+    font-size: 30px;
+    font-weight: 300;
+}
+.container_main_item{
+    display: column;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    margin: 10px;
+    background-color: yellow;
+    height: 650px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.container_main_item img{
+    height: 350px;
+    width: 225px;
+    border-radius: 5px;
+    border:10px inset black;
+}
+.sinopse_texto{
+    text-align: center;
+    font-weight: 500;
+}
+.sinopse_texto2{
+    font-weight: 200;
+}
